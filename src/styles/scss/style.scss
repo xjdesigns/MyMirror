@@ -1,0 +1,41 @@
+.mmr-main {
+  display: flex;
+  flex-flow: nowrap column;
+  width: 100vw;
+  height: 100vh;
+  background:
+    url('https://images.unsplash.com/photo-1524429656589-6633a470097c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80')
+    no-repeat
+    center center / cover
+  ;
+  color: white;
+
+  &__top,
+  &__base,
+  &__bottom {
+    padding: 24px;
+  }
+
+  &__top {
+    background: rgba(255, 255, 255, .3);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  &__base {
+    flex: 1;
+  }
+}
+
+.mmr-top {
+  display: flex;
+  align-items: center;
+}
+
+.mmr-weather {
+  flex: 1;
+
+  img {
+    max-width: 100px;
+    filter: hue-rotate(25deg);
+  }
+}

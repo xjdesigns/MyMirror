@@ -1,0 +1,10 @@
+https://www.iconfinder.com/iconsets/climate-iconset
+
+
+Things to display
+- current time
+- weather information, current and coming days
+- movie information for whats playing (on a loop)
+- calendar?
+- Fun quotes?
+- memes?
