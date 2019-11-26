@@ -17,8 +17,13 @@
   }
 
   &__top {
-    background: rgba(255, 255, 255, .3);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, .3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  &__bottom {
+    background: rgba(0, 0, 0, .3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   }
 
   &__base {
@@ -26,7 +31,8 @@
   }
 }
 
-.mmr-top {
+.mmr-top,
+.mmr-bottom {
   display: flex;
   align-items: center;
 }
@@ -36,6 +42,13 @@
 
   img {
     max-width: 100px;
-    filter: hue-rotate(25deg);
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.7));
+  }
+}
+
+.mmr-movie {
+  img {
+    max-width: 20vw;
+    min-width: 10vw;
   }
 }
